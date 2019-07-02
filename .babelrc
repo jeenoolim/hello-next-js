@@ -1,0 +1,11 @@
+{
+	"presets": [
+		"next/babel",  //리액트 오류 해결
+		"@babel/preset-react" // 리액트 디펜던시
+	],
+	"plugins": [
+		[ "@babel/plugin-proposal-decorators", { "legacy": true } ], // mobx 디펜던시
+		[ "@babel/plugin-proposal-class-properties", { "loose": true } ], // mobx 디펜던시
+		[ "@babel/plugin-transform-runtime" ] // mobx 디펜던시
+	
+}
